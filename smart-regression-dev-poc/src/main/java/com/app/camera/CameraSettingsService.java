@@ -1,14 +1,9 @@
 package com.app.camera;
 
-/**
- * Service for handling camera settings operations
- */
 public class CameraSettingsService {
-    
-    /**
-     * Update camera settings
-     */
-    public void updateSettings() {
-        // TODO: Implement camera settings update logic
+
+    public boolean updateSettings(String setting) {
+        System.out.println("Updating camera setting: " + setting);
+        return true;
     }
 }
